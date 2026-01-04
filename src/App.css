@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: serif;
   background-color: #f0f0f0;
   color: #333;
 }
@@ -58,7 +58,6 @@ button {
 .container-h1 h1 {
   font-size: 4.8rem;
   margin-bottom: 2rem;
-  font-family: serif;
 }
 .container-p {
   text-align: center;
@@ -248,4 +247,65 @@ button {
   color: #666;
   line-height: 1.5;
   margin-top: 2rem;
+}
+/* ////section the challenge//// */
+.the-challenge {
+  background-color: #000;
+  padding: 5rem 0;
+}
+.the-challenge .container {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+}
+.title {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.red-line {
+  background: #f3016e;
+  width: 0.3rem;
+  height: 1.8rem;
+}
+.title h2 {
+  font-size: 1.8rem;
+  color: #f3016e;
+}
+.the-challenge h1 {
+  color: #d2d1d1;
+  font-size: 4rem;
+  width: 65rem;
+  line-height: 1;
+  margin-bottom: 5rem;
+  font-weight: 500;
+}
+.challenge-list {
+  list-style: none;
+}
+.challenge div span {
+  display: flex;
+  gap: 1rem;
+  align-items: center !important;
+}
+.challenge div span h3,
+.time-revenue h3 {
+  color: #d2d1d1;
+  font-size: 2.6rem;
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+}
+.challenge div p,
+.time-revenue p {
+  font-size: 1.8rem;
+  color: #a4a4a4;
+  margin-bottom: 3rem;
+  width: 50rem;
+}
+.challenge span span i {
+  color: #000;
+  background: #f3016e;
+  padding: 0.4rem;
+  font-size: 1.8rem;
+  border-radius: 50%;
 }

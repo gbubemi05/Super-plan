@@ -12,6 +12,7 @@ function App() {
       <Testimonials />
       <HowItWorks />
       <TheChallenge />
+      <OneAgent />
     </body>
   );
 }
