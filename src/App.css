@@ -15,6 +15,18 @@ button {
   cursor: pointer;
   font-family: inherit;
 }
+section {
+  padding: 9.6rem 0;
+}
+ul {
+  list-style: none;
+}
+.grid-2cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 4rem;
+  /* gap: 3rem; */
+}
 .container {
   max-width: 130rem;
   margin: 0 auto;
@@ -287,12 +299,15 @@ button {
   gap: 1rem;
   align-items: center !important;
 }
+.challenge div span span {
+  margin-bottom: 1.2rem;
+}
 .challenge div span h3,
 .time-revenue h3 {
   color: #d2d1d1;
   font-size: 2.6rem;
   font-weight: 300;
-  margin-bottom: 1.2rem;
+  /* margin-bottom: 1.2rem; */
   display: inline-block;
 }
 .challenge div p,
@@ -308,4 +323,182 @@ button {
   padding: 0.4rem;
   font-size: 1.8rem;
   border-radius: 50%;
+}
+/* /////oneagent section///// */
+
+.section-oneAgent .container {
+  position: relative;
+  height: 60vh;
+}
+.title h1 {
+  font-size: 5rem;
+}
+.section-oneAgent .title {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.data-icon {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  background-color: #d0c4b3;
+  border-radius: 2px;
+  color: #5b5656;
+}
+.agent {
+  padding: 1.8rem 2rem;
+  font-size: 1.6rem;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+.agent span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.class-1 {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+.class-2 {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+}
+.class-3 {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+}
+.class-4 {
+  position: absolute;
+  top: 80%;
+  right: 30%;
+}
+
+.class-5 {
+  position: absolute;
+  top: 95%;
+  left: 40%;
+}
+
+.class-6 {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
+
+.class-7 {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+/* //////section team//// */
+.profile-card {
+  width: 30rem;
+  /* border: 2px #000 solid; */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.profile-head {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.profile-head img {
+  height: 6rem;
+  width: 5rem;
+  border-radius: 6px;
+}
+.profile-head span h3 {
+  font-size: 2.4rem;
+  margin-bottom: 0.4rem;
+  color: #333;
+}
+.profile-head span p {
+  font-size: 1.4rem;
+  color: #666;
+}
+.bar {
+  padding: 0.8rem 1rem;
+  border-radius: 32px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: #666 1px solid;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+.greybar {
+  background-color: #eae5de;
+  margin-top: 1.4rem;
+  margin-bottom: 1.8rem;
+}
+.checklist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.checklist i {
+  padding: 0.5rem;
+  background-color: #bf02ac;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+.greenbar {
+  background-color: #e9f8ee;
+  color: #338c50;
+}
+.heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+.more-info {
+  padding: 4rem;
+}
+.more-info p {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+}
+.container-team {
+  padding-top: 10rem;
+}
+.leftalign {
+  margin-left: 35rem;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding: 0.8rem 1rem;
+  border-radius: 32px;
+  font-size: 1.4rem;
+}
+.grid-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+.thinkbox {
+  display: flex;
+  flex-direction: column;
+}
+.thinking {
+  font-size: 1.4rem;
+}
+.answerbox {
+  border: 2px solid #adadad;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 40rem;
+  margin-top: 3rem;
 }

@@ -33,13 +33,14 @@ export function TheChallenge() {
           </h1>
           <ul className="challenge-list">
             {data.map((data) => (
-              <li className="challenge">
+              <li className="challenge " id={data.id}>
                 <div>
                   <span>
                     <span>
                       <i class="bi bi-x"></i>
+
+                      <h3>{data.heading}</h3>
                     </span>
-                    <h3>{data.heading}</h3>
                   </span>
                   <p>{data.paragraph}</p>
                 </div>
